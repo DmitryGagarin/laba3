@@ -4,7 +4,7 @@ app = FastAPI(title="My Laba3 API", version="1.0.0")
 
 @app.get("/")
 def home():
-    return {"message": "Привет, мир!", "author": "Ваше Имя"}
+    return {"message": "Привет, мир! CI/CD работает!", "author": "Ваше Имя"}
 
 @app.get("/health")
 def health():
